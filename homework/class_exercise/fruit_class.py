@@ -22,6 +22,7 @@ Call methods from the base class also using the instance of the
 child class
 """
 
+# Fruit Parent Class
 class Fruit(object):
 	def __init__(self):
 		print("This is a fruit. It has seeds!")
@@ -32,8 +33,25 @@ class Fruit(object):
 	def shape(self):
 		print("Fruits can come in all sorts of shapes.")
 
+# Child Banana Class
+class Banana(Fruit):
+	def __init__(self):
+		Fruit.__init__(self):
+			print("Now let's talk about bananas!")
+
+	def nutrition(self):
+		print("Bananas have a lot of potassium.")
+
+	def shape(self):
+		print("And they have a longer, thinner shape than most other fruits.")
+
+# Call the Parent class
 f = Fruit()
 f.nutrition()
 f.shape()
 
+# Call the child class
+b = Banana()
+b.nutrition()
+b.shape()
 	    
