@@ -23,27 +23,32 @@ child class
 """
 
 # Fruit Parent Class
+
+
 class Fruit(object):
-	def __init__(self):
-		print("This is a fruit. It has seeds!")
+    def __init__(self):
+        print("This is a fruit. It has seeds!")
 
-	def nutrition(self):
-		print("This fruit is very nutritious.")
+    def nutrition(self):
+        print("This fruit is very nutritious.")
 
-	def shape(self):
-		print("Fruits can come in all sorts of shapes.")
+    def shape(self):
+        print("Fruits can come in all sorts of shapes.")
 
 # Child Banana Class
+
+
 class Banana(Fruit):
-	def __init__(self):
-		Fruit.__init__(self):
-			print("Now let's talk about bananas!")
+    def __init__(self):
+        Fruit.__init__(self)
+        print("Now let's talk about bananas!")
 
-	def nutrition(self):
-		print("Bananas have a lot of potassium.")
+    def nutrition(self):
+        print("Bananas have a lot of potassium.")
 
-	def shape(self):
-		print("And they have a longer, thinner shape than most other fruits.")
+    def shape(self):
+        print("And they have a longer, thinner shape than most other fruits.")
+
 
 # Call the Parent class
 f = Fruit()
@@ -54,4 +59,3 @@ f.shape()
 b = Banana()
 b.nutrition()
 b.shape()
-	    
