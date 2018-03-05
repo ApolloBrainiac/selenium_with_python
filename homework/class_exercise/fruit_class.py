@@ -41,7 +41,7 @@ class Fruit(object):
 class Banana(Fruit):
     def __init__(self):
         Fruit.__init__(self)
-        print("Now let's talk about bananas!")
+        print("This fruit is called a banana!")
 
     def nutrition(self):
         print("Bananas have a lot of potassium.")
