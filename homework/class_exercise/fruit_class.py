@@ -21,3 +21,19 @@ Created instances of these classes and call methods from them
 Call methods from the base class also using the instance of the
 child class
 """
+
+class Fruit(object):
+	def __init__(self):
+		print("This is a fruit. It has seeds!")
+
+	def nutrition(self):
+		print("This fruit is very nutritious.")
+
+	def shape(self):
+		print("Fruits can come in all sorts of shapes.")
+
+f = Fruit()
+f.nutrition()
+f.shape()
+
+	    
