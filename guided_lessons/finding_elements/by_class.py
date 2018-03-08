@@ -1,25 +1,29 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+
 class ByClass():
-    baseUrl = "https://letskodeit.teachable.com/p/practice"
-    driver = webdriver.Firefox()
-    driver.get(baseUrl)
 
-    elementById = driver.find_element(By.ID, "")
+    def test(self):
+        baseUrl = "https://letskodeit.teachable.com/p/practice"
+        driver = webdriver.Firefox()
+        driver.get(baseUrl)
 
-    if elementById is not None:
-        print('We found an element by id')
+        elementById = driver.find_element(By.ID, "name")
 
-    elementByXpath = driver.find_element(By.XPATH, "")
+        if elementById is not None:
+            print('We found an element by id')
 
-    if elementByXpath is not None:
-        print("We found an element by XPATH")
+        elementByXpath = driver.find_element(
+            By.XPATH, "//input[@id='displayed-text']")
 
-    elementByLinkText = driver.find_element(By.LINK_TEXT, "")
+        if elementByXpath is not None:
+            print("We found an element by XPATH")
 
-    if elementByLinkText is not None:
-        print("We found an element by Link Text")
+        elementByLinkText = driver.find_element(By.LINK_TEXT, "Login")
+
+        if elementByLinkText is not None:
+            print("We found an element by Link Text")
 
 
 fbc = ByClass()
