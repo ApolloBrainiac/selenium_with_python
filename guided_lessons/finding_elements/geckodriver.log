@@ -64,3 +64,16 @@ Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\o
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1520541442907	geckodriver	INFO	geckodriver 0.19.1
+1520541442917	geckodriver	INFO	Listening on 127.0.0.1:47834
+1520541445012	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\THUNDE~1\\AppData\\Local\\Temp\\rust_mozprofile.YuZ1deEn5dVd"
+1520541717706	geckodriver	INFO	geckodriver 0.19.1
+1520541717714	geckodriver	INFO	Listening on 127.0.0.1:48033
+1520541719786	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\THUNDE~1\\AppData\\Local\\Temp\\rust_mozprofile.pWfqTzyQ19ZO"
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1520541722452	Marionette	INFO	Listening on port 48040
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1520541722900	Marionette	WARN	TLS certificate errors will be ignored for this session
