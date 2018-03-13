@@ -26,6 +26,13 @@ class RadioButtons():
         benzCheckBox = driver.find_element_by_id('benzcheck')
         benzCheckBox.click()
 
+        print("BMW Radio button is selected? " +
+              str(bmwRadioBtn.is_selected()))
+        print("Benz Radio button is selected? " +
+              str(benzRadioBtn.is_selected()))
+        print("BMW Checkbox is selected? " + str(bmwCheckBox.is_selected()))
+        print("Benz Checkbox is selected? " + str(benzCheckBox.is_selected()))
+
 
 rb = RadioButtons()
 rb.test()
