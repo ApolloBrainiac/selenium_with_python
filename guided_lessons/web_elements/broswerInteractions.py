@@ -30,6 +30,8 @@ class BroswerInteractions():
         # Open another Url
         driver.get(
             'https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1')
+        url = driver.current_url
+        print("Curren Url of the web page is: " + url)
         # Browser Back
         driver.back()
         print('Go one step back in browser history')
@@ -39,6 +41,7 @@ class BroswerInteractions():
         print('Go one step forward in broswer history')
         # Get Page Source
         pageSource = driver.page_source
+        print(pageSource)
         # Broswer Close / Quit
         driver.close()
 
