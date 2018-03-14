@@ -13,7 +13,7 @@ class HiddenElements():
 
         # Find the state of the text box
         textBoxElement = driver.find_element(By.ID, 'displayed-text')
-        textBoxState = textBoxElement.is_displayed() # True if visible, False if hidden
+        textBoxState = textBoxElement.is_displayed()  # True if visible, False if hidden
         # Exception if not present in the DOM
         print("Text is visible? " + str(textBoxState))
         time.sleep(3)
@@ -50,7 +50,10 @@ class HiddenElements():
         flightTab.click()
 
         drpdwnElement = driver.find_element(By.ID, 'flight-age-select-1')
+        drpdwnState = drpdwnElement.is_displayed()
+        print("Element visible? " + str(drpdwnState))
 
 
 he = HiddenElements()
 he.testLetsKodeIt()
+he.testExpedia()
