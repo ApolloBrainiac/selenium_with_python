@@ -11,30 +11,29 @@ class HiddenElements():
         driver.get(baseUrl)
         driver.implicitly_wait(2)
 
+        def isVisible():
+            textBoxElement = driver.find_element(By.ID, 'displayed-text')
+            textBoxState = textBoxElement.is_displayed()  # True if visible, False if hidden
+            # Exception if not present in the DOM
+            print("Text is visible? " + str(textBoxState))
+            time.sleep(3)
+        
         # Find the state of the text box
-        textBoxElement = driver.find_element(By.ID, 'displayed-text')
-        textBoxState = textBoxElement.is_displayed()  # True if visible, False if hidden
-        # Exception if not present in the DOM
-        print("Text is visible? " + str(textBoxState))
-        time.sleep(3)
+        isVisible()
 
         # Click the Hide button
         hideButton = driver.find_element(By.ID, 'hide-textbox')
         hideButton.click()
 
         # Find the state of the text box
-        textBoxState = textBoxElement.is_displayed()
-        print("Text is visible? " + str(textBoxState))
-        time.sleep(3)
+        isVisible()
 
         # Click the Show button
         showButton = driver.find_element(By.ID, 'show-textbox')
         showButton.click()
 
         # Find the state of the text box
-        textBoxState = textBoxElement.is_displayed()
-        print("Text is visible? " + str(textBoxState))
-        time.sleep(3)
+        isVisible()
 
         # Browser CLose
         driver.close()
