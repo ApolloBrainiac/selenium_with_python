@@ -33,4 +33,30 @@ class Wrappers():
             print("Element Found")
         except:
             print("Element not found")
-        return element
+            return element
+
+    def isElementPresent(self, locator, byType):
+        try:
+            element = self.driver.find_element(byType, locator)
+            if element is not None:
+                print("Element Found")
+                return True
+            else:
+                print("Element not found")
+                return False
+        except:
+            print("Element not found")
+            return False
+
+    def elementPresenceCheck(self, locator, byType):
+        try:
+            elementList = self.driver.find_elements(byType, locator)
+            if len(elementList) > 0:
+                print("Element Found")
+                return True
+            else:
+                print("Element not found")
+            return False
+        except:
+            print("Element not found")
+            return False
