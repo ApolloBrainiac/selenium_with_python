@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from useful_methods.wrappers_class import Wrappers
+from wrappers_class import Wrappers
 import time
 
 

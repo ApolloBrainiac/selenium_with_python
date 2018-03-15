@@ -16,13 +16,13 @@ class Wrappers():
             print("Locator type is not supported")
         return False
 
-        def getElement(self, locator, locatorType="id"):
-            element = None
-            try:
-                locatorType = locatorType.lower()
-                byType = self.getByType(locatorType)
-                element = self.driver.find_element(byType, locator)
-                print("Element Found")
-            except:
-                print("Element not found")
-            return element
+    def getElement(self, locator, locatorType="id"):
+        element = None
+        try:
+            locatorType = locatorType.lower()
+            byType = self.getByType(locatorType)
+            element = self.driver.find_element(byType, locator)
+            print("Element Found")
+        except:
+            print("Element not found")
+        return element
