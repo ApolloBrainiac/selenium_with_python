@@ -17,7 +17,7 @@ class HiddenElements():
             # Exception if not present in the DOM
             print("Text is visible? " + str(textBoxState))
             time.sleep(3)
-        
+
         # Find the state of the text box
         isVisible()
 
