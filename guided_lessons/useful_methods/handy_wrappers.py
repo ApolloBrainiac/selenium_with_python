@@ -19,7 +19,7 @@ class HandyWrapper():
         time.sleep(3)
 
         textField2 = wr.getElement("//input[@id='name']", locatorType="xpath")
-        textField2.send_keys("Test2")
+        textField2.clear()
         time.sleep(3)
         driver.quit()
 

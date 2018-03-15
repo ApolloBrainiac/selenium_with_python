@@ -51,3 +51,13 @@ Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\o
 1521144582510	Marionette	INFO	Listening on port 5455
 Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
 1521144583088	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521145596509	geckodriver	INFO	geckodriver 0.19.1
+1521145596519	geckodriver	INFO	Listening on 127.0.0.1:7820
+1521145598589	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\THUNDE~1\\AppData\\Local\\Temp\\rust_mozprofile.NPjgoJ8Hw4un"
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1521145600960	Marionette	INFO	Listening on port 7830
+1521145601704	Marionette	WARN	TLS certificate errors will be ignored for this session

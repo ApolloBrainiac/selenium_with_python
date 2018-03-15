@@ -12,8 +12,16 @@ class Wrappers():
             return By.ID
         elif locatorType == "xpath":
             return By.XPATH
+        elif locatorType == "name":
+            return By.NAME
+        elif locatorType == "css":
+            return By.CSS_SELECTOR
+        elif locatorType == "classname":
+            return By.CLASS_NAME
+        elif locatorType == "linktext":
+            return By.LINK_TEXT
         else:
-            print("Locator type is not supported")
+            print("Locator type " + locatorType + " is not correct/supported")
         return False
 
     def getElement(self, locator, locatorType="id"):
