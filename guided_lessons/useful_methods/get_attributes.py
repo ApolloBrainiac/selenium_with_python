@@ -15,7 +15,7 @@ class GetAttribute():
         element = driver.find_element(By.ID, 'name')
         elAttr = element.get_attribute("class")
 
-       	print("Value of class is: " + elAttr)
+        print("Value of class is: " + elAttr)
         time.sleep(3)
         driver.quit()
 
