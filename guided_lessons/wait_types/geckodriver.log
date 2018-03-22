@@ -67,3 +67,110 @@ Line: 1875, column: 0
 [GPU 14120, Chrome_ChildThread] WARNING:
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1521758140531	geckodriver	INFO	geckodriver 0.19.1
+1521758140542	geckodriver	INFO	Listening on 127.0.0.1:22048
+1521758142610	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\THUNDE~1\\AppData\\Local\\Temp\\rust_mozprofile.SGALcVmsyQ3z"
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1521758143618	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1521758145630	Marionette	INFO	Listening on port 22058
+1521758145880	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/memberOnlyDeals-1-en_US-5f698ca43c34c54e6de63df6d9204928-min.js, line 1: ReferenceError: Handlebars is not defined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-6769901, line 70: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-6769901, line 70: unreachable code after return statement
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:521:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:441:5
+Line: 1875, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:521:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:441:5
+Line: 1875, column: 0
+[Parent 19284, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:651:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:600:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:702:7
+Line: 1875, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:651:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:600:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:702:7
+Line: 1875, column: 0
+[Child 6672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6672, Chrome_Ch[Child 10448, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10448, Chrome_ChildThread]
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1521758475488	geckodriver	INFO	geckodriver 0.19.1
+1521758475497	geckodriver	INFO	Listening on 127.0.0.1:22813
+1521758477569	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\THUNDE~1\\AppData\\Local\\Temp\\rust_mozprofile.rJYMVdS54elp"
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1521758478422	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1521758480596	Marionette	INFO	Listening on port 22825
+1521758480698	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/memberOnlyDeals-1-en_US-5f698ca43c34c54e6de63df6d9204928-min.js, line 1: ReferenceError: Handlebars is not defined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-6769901, line 70: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-6769901, line 70: unreachable code after return statement
+[Child 564, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17236, Chrome_C[Parent 3052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18612, Chrome_Child
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1521758906790	geckodriver	INFO	geckodriver 0.19.1
+1521758906799	geckodriver	INFO	Listening on 127.0.0.1:23884
+1521758908875	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\THUNDE~1\\AppData\\Local\\Temp\\rust_mozprofile.c9lpJNOAr23w"
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1521758909820	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1521758912368	Marionette	INFO	Listening on port 23894
+1521758912750	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-6769901, line 70: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-6769901, line 70: unreachable code after return statement
+JavaScript error: https://suggest.expedia.com/api/v4/typeahead/?callback=cb_1521758917544_0&client=Homepage&siteid=1&guid=e8506254442447a88e0159911bbae241&lob=FLIGHTS&locale=en_US&expuserid=-1&regiontype=95&ab=&dest=true&maxresults=10&features=nearby_airport%7Cta_hierarchy&personalize=true&originSearchString=SFO&format=jsonp&device=Desktop&browser=Firefox, line 1: TypeError: cb_1521758917544_0 is not a function
+[Child 8784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8784, Chrome_[Child 17972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17972, Chrome_
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1521758967288	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1521758969954	Marionette	INFO	Listening on port 24152
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1521758970280	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-6769901, line 70: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-6769901, line 70: unreachable code after return statement
+JavaScript error: https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/memberOnlyDeals-1-en_US-5f698ca43c34c54e6de63df6d9204928-min.js, line 1: ReferenceError: Handlebars is not defined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-6769901, line 70: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-6769901, line 70: unreachable code after return statement
+[Child 18396, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18396, Chrome_ChildThread] WARNING: pipe error: 109: f[Child 9980, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9980, Chrome_
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
