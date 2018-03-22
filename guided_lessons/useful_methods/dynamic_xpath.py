@@ -25,6 +25,10 @@ class DynamicXpath():
 
         # Select Course
         _course = "//div[contains(@class, 'course-listing-title') and contains(text(), '{0}')]"
+        _courseLocator = _course.format("JavaScript for beginners")
+
+        courseElement = driver.find_element(By.XPATH, _courseLocator)
+        courseElement.click()
 
 
 dx = DynamicXpath()
