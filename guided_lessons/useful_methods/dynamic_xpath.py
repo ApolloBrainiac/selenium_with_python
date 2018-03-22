@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+import time
 
 
 class DynamicXpath():
@@ -22,6 +23,11 @@ class DynamicXpath():
         # Search for courses
         searchBox = driver.find_element(By.ID, "search-courses")
         searchBox.send_keys("JavaScript")
+        time.sleep(3)
+
+        searchButton = driver.find_element(By.ID, "search-course-button")
+        searchButton.click()
+        time.sleep(3)
 
         # Select Course
         _course = "//div[contains(@class, 'course-listing-title') and contains(text(), '{0}')]"
