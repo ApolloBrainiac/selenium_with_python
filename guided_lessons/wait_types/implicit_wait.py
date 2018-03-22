@@ -9,6 +9,7 @@ class ImplicitWait():
         driver = webdriver.Firefox()
         driver.maximize_window()
         driver.get(baseUrl)
+        driver.implicitly_wait(10)
 
         loginLink = driver.find_element(
             By.XPATH, "//div[@id='navbar']//a[@href='/sign_in']")
