@@ -39,7 +39,20 @@ class calendarSelect():
         driver.find_element(By.ID, "tab-flight-tab-hp").click()
         # Click departing field
         driver.find_element(By.ID, "flight-departing-hp-flight").click()
+        calMonth = driver.find_element(
+            By.XPATH, "//div[@class='datepicker-cal-month'][position()=1]")
+        allValidDates = calMonth.find_elements(
+            By.XPATH, "//button[not(contains(@class, 'disabled'))]")
+
+        time.sleep(2)
+
+        for date in allValidDates:
+            if date.text == "31":
+                date.click()
+                break
+
+        driver.quit()
 
 
 cs = calendarSelect()
-cs.test()
+cs.test2()

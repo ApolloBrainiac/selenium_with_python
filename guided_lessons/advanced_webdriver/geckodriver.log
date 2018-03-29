@@ -28,3 +28,38 @@ JavaScript error: https://a.travel-assets.com/bundles/storefront-web/secondaryCo
 JavaScript error: https://a.travel-assets.com/bundles/storefront-web/redirection-bundle/locateme-e834a5ca3ab673a43c08c002e6fb92d5-min.js, line 1: TypeError: a.fieldErrors is undefined
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-6769901, line 69: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-6769901, line 69: unreachable code after return statement
+1522350380564	geckodriver	INFO	geckodriver 0.19.1
+1522350380576	geckodriver	INFO	Listening on 127.0.0.1:29873
+1522350382661	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\THUNDE~1\\AppData\\Local\\Temp\\rust_mozprofile.ZPhspFaZqlLB"
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1522350383866	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1522350386570	Marionette	INFO	Listening on port 29881
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1522350387150	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://a.travel-assets.com/bundles/storefront-web/redirection-bundle/locateme-e834a5ca3ab673a43c08c002e6fb92d5-min.js, line 1: TypeError: a.fieldErrors is undefined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-813670643, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-813670643, line 69: unreachable code after return statement
+[Child 6116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6116, Chrome_ChildThread] WARNING: pipe erro[Chi*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1522350458550	geckodriver	INFO	geckodriver 0.19.1
+1522350458560	geckodriver	INFO	Listening on 127.0.0.1:30218
+1522350460661	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\THUNDE~1\\AppData\\Local\\Temp\\rust_mozprofile.JvXihIngOkKm"
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1522350461786	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1522350464548	Marionette	INFO	Listening on port 30228
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1522350464898	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/memberOnlyDeals-1-en_US-5f698ca43c34c54e6de63df6d9204928-min.js, line 1: ReferenceError: Handlebars is not defined
+JavaScript error: https://a.travel-assets.com/bundles/storefront-web/redirection-bundle/locateme-e834a5ca3ab673a43c08c002e6fb92d5-min.js, line 1: TypeError: a.fieldErrors is undefined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-6769901, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-6769901, line 69: unreachable code after return statement
+[Child 14740, Chrome_ChildThread] WARNING: pipe error: 232: 
