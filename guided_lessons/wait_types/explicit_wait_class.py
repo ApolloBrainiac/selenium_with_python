@@ -9,7 +9,7 @@ class ExplicitWaitType():
 
     def __init__(self, driver):
     	self.driver = driver
-    	self.wr = Wrappers()
+    	self.wr = Wrappers(driver)
 
 
         def waitForElements(self, locator, locatorType="id",
