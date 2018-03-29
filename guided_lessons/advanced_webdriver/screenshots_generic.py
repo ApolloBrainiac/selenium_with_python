@@ -17,7 +17,7 @@ class screenShots():
         driver.find_element(By.ID, "user_password").send_keys("abc")
         driver.find_element(By.NAME, "commit").click()
         self.takeScreenshot(driver)
-        
+
         time.sleep(3)
         driver.quit()
 
