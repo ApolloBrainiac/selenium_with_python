@@ -28,6 +28,18 @@ class calendarSelect():
         time.sleep(3)
         driver.close()
 
+    def test2(self):
+        baseUrl = "https://www.expedia.com"
+        driver = webdriver.Firefox()
+        driver.maximize_window()
+        driver.get(baseUrl)
+        driver.implicitly_wait(5)
+
+        # Click flights tab
+        driver.find_element(By.ID, "tab-flight-tab-hp").click()
+        # Click departing field
+        driver.find_element(By.ID, "flight-departing-hp-flight").click()
+
 
 cs = calendarSelect()
 cs.test()
