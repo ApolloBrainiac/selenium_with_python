@@ -13,12 +13,30 @@ class ScrollElement():
         driver.implicitly_wait(4)
 
         # Scroll Down
+        driver.execute_script(
+            "window.scrollBy(0, 1000);")
+        time.sleep(4)
 
         # Scroll Up
+        driver.execute_script(
+            "window.scrollBy(0, -1000);")
+        time.sleep(4)
 
         # Scroll Element Into View
+        element = driver.find_element(
+            By.ID, "mousehover")
+        driver.execute_script(
+            "arguments[0].scrollIntoView(true);", element)
+        time.sleep(4)
+        driver.execute_script(
+            "window.scrollBy(0, -100);")
 
         # Native Way To Scroll Element Into View
+        time.sleep(4)
+        driver.execute_script(
+            "window.scrollBy(0, -1000);")
+        location = element.location_once_scrolled_into_view
+        print("location: " + str(location))
 
 
 se = ScrollElement()
