@@ -62,4 +62,14 @@ JavaScript error: https://a.travel-assets.com/bundles/storefront-web/secondaryCo
 JavaScript error: https://a.travel-assets.com/bundles/storefront-web/redirection-bundle/locateme-e834a5ca3ab673a43c08c002e6fb92d5-min.js, line 1: TypeError: a.fieldErrors is undefined
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-6769901, line 69: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-6769901, line 69: unreachable code after return statement
-[Child 14740, Chrome_ChildThread] WARNING: pipe error: 232: 
+[Child 14740, Chrome_ChildThread] WARNING: pipe error: 232: 1522354623136	geckodriver	INFO	geckodriver 0.19.1
+1522354623149	geckodriver	INFO	Listening on 127.0.0.1:37998
+1522354625217	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\THUNDE~1\\AppData\\Local\\Temp\\rust_mozprofile.WLpJzBuUF7MS"
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1522354626330	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1522354629048	Marionette	INFO	Listening on port 38008
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1522354629244	Marionette	WARN	TLS certificate errors will be ignored for this session

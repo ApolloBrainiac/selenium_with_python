@@ -12,10 +12,16 @@ class autoComplete():
         driver.get(baseUrl)
         driver.implicitly_wait(4)
 
-        element = driver.find_element(By.ID, "")
-        element.click()
+        # Send Partial Data
+        cityField = driver.find_element(By.ID, "air-city-departure")
+        cityField.send_keys("New York")
+        time.sleep(3)
+        # Find the item and click
+        itemToSelect = driver.find_element(By.XPATH, "//li[@id='air-city-departure-menu-item2']")
+        itemToSelect.click()
 
-        time.sleep(2)
+        time.sleep(3)
+        driver.quit()
 
 
 ac = autoComplete()
