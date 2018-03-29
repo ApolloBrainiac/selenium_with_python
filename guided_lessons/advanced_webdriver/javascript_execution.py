@@ -9,14 +9,20 @@ class javaScriptExecute():
         baseUrl = "https://letskodeit.teachable.com/pages/practice"
         driver = webdriver.Firefox()
         driver.maximize_window
-        driver.get(baseUrl)
+        # driver.get(baseUrl)
+        driver.execute_script(
+            "window.location = 'https://letskodeit.teachable.com/pages/practice';")
         driver.implicitly_wait(5)
 
-        element = driver.find_element(
-            By.ID, "")
-        element.click()
-
         time.sleep(3)
+        
+        element = driver.execute_script(
+            "return document.getElementById('name');")
+        time.sleep(3)
+        
+        element.send_keys("Test")
+        time.sleep(3)
+        
         driver.quit()
 
 
