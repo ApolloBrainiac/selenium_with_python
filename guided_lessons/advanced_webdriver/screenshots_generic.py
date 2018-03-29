@@ -16,16 +16,10 @@ class screenShots():
         driver.find_element(By.ID, "user_email").send_keys("abc@email.com")
         driver.find_element(By.ID, "user_password").send_keys("abc")
         driver.find_element(By.NAME, "commit").click()
-        destinationFileName = "C:\\Users\\ThunderBear\\Pictures\\test.png"
-
-        try:
-            driver.save_screenshot(destinationFileName)
-            print(
-                "Screenshot saved to directory --> :: " + destinationFileName)
-        except NotADirectoryError:
-            print("Not a directory issue")
-
+        self.takeScreenshot(driver)
+        
         time.sleep(3)
+        driver.quit()
 
     def takeScreenshot(self, driver):
         """
@@ -36,6 +30,13 @@ class screenShots():
         fileName = str(round(time.time() * 1000)) + ".png"
         screenshotDirectory = "C:\\Users\\ThunderBear\\Pictures\\"
         destinationFile = screenshotDirectory + fileName
+
+        try:
+            driver.save_screenshot(destinationFile)
+            print(
+                "Screenshot saved to directory --> :: " + destinationFile)
+        except NotADirectoryError:
+            print("Not a directory issue")
 
 
 ss = screenShots()

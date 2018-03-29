@@ -114,3 +114,15 @@ Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\o
 1522357624316	Marionette	INFO	Listening on port 42925
 1522357624616	Marionette	WARN	TLS certificate errors will be ignored for this session
 Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1522358853109	geckodriver	INFO	geckodriver 0.19.1
+1522358853119	geckodriver	INFO	Listening on 127.0.0.1:44763
+1522358855191	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\THUNDE~1\\AppData\\Local\\Temp\\rust_mozprofile.iEXHMjgQzLzE"
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1522358856208	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1522358858730	Marionette	INFO	Listening on port 44771
+1522358858872	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 2416, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
