@@ -1,0 +1,30 @@
+1522345988502	geckodriver	INFO	geckodriver 0.19.1
+1522345988512	geckodriver	INFO	Listening on 127.0.0.1:22148
+1522345990608	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\THUNDE~1\\AppData\\Local\\Temp\\rust_mozprofile.bz51FeHV4yBk"
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1522345991584	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1522345993680	Marionette	INFO	Listening on port 22156
+1522345993752	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/memberOnlyDeals-1-en_US-5f698ca43c34c54e6de63df6d9204928-min.js, line 1: ReferenceError: Handlebars is not defined
+JavaScript error: https://a.travel-assets.com/bundles/storefront-web/redirection-bundle/locateme-e834a5ca3ab673a43c08c002e6fb92d5-min.js, line 1: TypeError: a.fieldErrors is undefined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-6769901, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-6769901, line 69: unreachable code after return statement
+[Parent 4592, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12832, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12832, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4592, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10424, C[Parent 4592, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rt 22441
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1522346032808	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/memberOnlyDeals-1-en_US-5f698ca43c34c54e6de63df6d9204928-min.js, line 1: ReferenceError: Handlebars is not defined
+JavaScript error: https://a.travel-assets.com/bundles/storefront-web/redirection-bundle/locateme-e834a5ca3ab673a43c08c002e6fb92d5-min.js, line 1: TypeError: a.fieldErrors is undefined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-6769901, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-6769901, line 69: unreachable code after return statement
