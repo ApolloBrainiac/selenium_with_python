@@ -23,6 +23,10 @@ class SwitchWindow():
 
         # Switch back to the parent handle
 
+        driver.find_element(By.ID, "openwindow").click()
+
+        searchBox = driver.find_element(By.ID, "search-courses")
+        searchBox.send_keys("python")
 
 sw = SwitchWindow()
 sw.test()
