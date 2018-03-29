@@ -11,14 +11,15 @@ class WindowSize():
         driver.get(baseUrl)
         driver.implicitly_wait(5)
 
-
-        height = ""
-        width = ""
+        height = driver.execute_script(
+            "return window.innerHeight;")
+        width = driver.execute_script(
+            "return window.innerWidth;")
         print("Height: " + str(height))
-        print("Width: " str(width))
+        print("Width: " + str(width))
 
         time.sleep(3)
-        driver.quit()
+        driver.close()
 
 
 ws = WindowSize()
