@@ -32,8 +32,14 @@ class SwitchWindow():
                 searchBox = driver.find_element(By.ID, "search-courses")
                 searchBox.send_keys("python")
                 time.sleep(2)
+                driver.close()
+                break
 
         # Switch back to the parent handle
+        driver.switch_to.window(parentHandle)
+        driver.find_element(
+            By.ID, "name").send_keys("test successful")
+
 
 
 sw = SwitchWindow()
