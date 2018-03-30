@@ -4,29 +4,34 @@ import time
 
 
 class SwitchWindow():
-    
+
     def test(self):
-        baseUrl = "https://letskodeit.teachable.com/pages/practic"
+        baseUrl = "https://letskodeit.teachable.com/pages/practice"
         driver = webdriver.Firefox()
         driver.maximize_window
         driver.get(baseUrl)
         driver.implicitly_wait(5)
 
         # Find parent handle -> Main Window
+        parentHandle = driver.current_window_handle
+        print("Parent Handle: " + str(parentHandle))
 
         # Find open window button and click it
+        driver.find_element(By.ID, "openwindow").click()
+        time.sleep(4)
 
         # Find all handles, there should be two handles after clicking open window button
+        handles = driver.window_handles
 
         # Switch to window and search course
-
+        for handle in handles:
+            print("Handle: " + handle)
 
         # Switch back to the parent handle
 
-        driver.find_element(By.ID, "openwindow").click()
+        # searchBox = driver.find_element(By.ID, "search-courses")
+        # searchBox.send_keys("python")
 
-        searchBox = driver.find_element(By.ID, "search-courses")
-        searchBox.send_keys("python")
 
 sw = SwitchWindow()
 sw.test()
