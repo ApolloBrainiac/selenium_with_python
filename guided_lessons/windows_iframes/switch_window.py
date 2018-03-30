@@ -26,11 +26,14 @@ class SwitchWindow():
         # Switch to window and search course
         for handle in handles:
             print("Handle: " + handle)
+            if handle not in parentHandle:
+                driver.switch_to.window(handle)
+                print("Switched to window:: " + handle)
+                searchBox = driver.find_element(By.ID, "search-courses")
+                searchBox.send_keys("python")
+                time.sleep(2)
 
         # Switch back to the parent handle
-
-        # searchBox = driver.find_element(By.ID, "search-courses")
-        # searchBox.send_keys("python")
 
 
 sw = SwitchWindow()
