@@ -72,3 +72,14 @@ Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\o
 [GPU 3320, Chrome_ChildThread] WARNING: pipe err
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1522437900279	geckodriver	INFO	geckodriver 0.19.1
+1522437900303	geckodriver	INFO	Listening on 127.0.0.1:63889
+1522437902398	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\THUNDE~1\\AppData\\Local\\Temp\\rust_mozprofile.ujrpbTYypxLr"
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1522437903734	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1522437906638	Marionette	INFO	Listening on port 63901
+Unable to read VR Path Registry from C:\Users\ThunderBear\AppData\Local\openvr\openvrpaths.vrpath
+1522437907786	Marionette	WARN	TLS certificate errors will be ignored for this session
