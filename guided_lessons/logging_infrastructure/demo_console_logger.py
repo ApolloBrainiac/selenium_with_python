@@ -7,6 +7,8 @@ class LoggerDemoConsole():
 
     def testLog(self):
         # create logger
+        logger = logging.getLogger('sample_log')
+        logger.setLevel(logging.INFO)
 
         # create console handler and set level to info
 
