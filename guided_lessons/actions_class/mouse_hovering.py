@@ -14,22 +14,23 @@ class MouseHover():
         driver.implicitly_wait(5)
 
         driver.execute_script("window.scrollBy(0, 700);")
-        time.sleep(2)
+        time.sleep(3)
+        element = driver.find_element(
+            By.ID, "mousehover")
         itemToClickLocator = ".//div[@class='mouse-hover-content']//a[text()='Top']"
+
         try:
-
-        	print("Mouse Hovered on element")
-        	time.sleep(2)
-
-        	print("Item Clicked")
+            actions = ActionChains(driver)
+            actions.move_to_element(element).perform()
+            print("Mouse Hovered on element")
+            time.sleep(2)
+            topLink = driver.find_element(
+                By.XPATH, itemToClickLocator)
+            actions.move_to_element(topLink).click().perform()
+            print("Item Clicked")
 
         except:
-        	print("Mouse Hover failed on element")
-
-        element = driver.find_element(
-            By.ID, "")
-        element.click()
-        time.sleep(4)
+            print("Mouse Hover failed on element")
 
 
 mh = MouseHover()
