@@ -2,12 +2,13 @@
 Logger Demo
 """
 import logging
+import logging.config
+
 
 class LoggerDemoConf():
 
     def testLog(self):
         # create logger
-
 
         # logging messages
         logger.debug('debug message')
