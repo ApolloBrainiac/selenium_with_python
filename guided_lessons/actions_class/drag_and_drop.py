@@ -23,7 +23,8 @@ class DragDrop():
 
         try:
             actions = ActionChains(driver)
-            actions.drag_and_drop(fromElement, toElement).perform()
+            # actions.drag_and_drop(fromElement, toElement).perform()
+            actions.click_and_hold(fromElement).move_to_element(toElement).release.perform()
             print("Drag and drop Element Successful")
             time.sleep(2)
         except:
