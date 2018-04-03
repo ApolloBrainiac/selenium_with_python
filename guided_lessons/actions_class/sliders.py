@@ -1,0 +1,33 @@
+from selenium import webdriver
+from selenium.webdriver import ActionChains
+from selenium.webdriver.common.by import By
+import time
+
+
+class SliderClass():
+
+    def test(self):
+
+        baseUrl = "https://jqueryui.com/slider/"
+        driver = webdriver.Firefox()
+        driver.maximize_window()
+        driver.get(baseUrl)
+        driver.implicitly_wait(5)
+
+        driver.switch_to.frame(0)
+
+        element = driver.find_element(
+            By.XPATH, "//div[@id='slider']//span")
+        time.sleep(2)
+
+        try:
+            print("Sliding Element Successful")
+            time.sleep(2)
+        except:
+            print("Sliding failed on element")
+
+        driver.quit()
+
+
+sc = SliderClass()
+sc.test()
