@@ -6,14 +6,14 @@ import time
 
 class MouseHover():
 
-    def test1(self):
+    def test(self):
         baseUrl = "https://letskodeit.teachable.com/pages/practice"
         driver = webdriver.Firefox()
         driver.maximize_window
         driver.get(baseUrl)
         driver.implicitly_wait(5)
 
-        driver.execute_script("window.scrollBy(0, 700);")
+        driver.execute_script("window.scrollBy(0, 750);")
         time.sleep(3)
         element = driver.find_element(
             By.ID, "mousehover")
