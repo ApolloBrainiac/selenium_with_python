@@ -6,7 +6,7 @@ import time
 class AlertSwitch():
 
     def test(self):
-        baseUrl = "https://letskodit.teachable.com/pages/practice"
+        baseUrl = "https://letskodeit.teachable.com/pages/practice"
         driver = webdriver.Firefox()
         driver.maximize_window()
         driver.get(baseUrl)
