@@ -21,6 +21,8 @@ class SliderClass():
         time.sleep(2)
 
         try:
+            actions = ActionChains(driver)
+            actions.drag_and_drop_by_offset(element, 100, 0).perform()
             print("Sliding Element Successful")
             time.sleep(2)
         except:
