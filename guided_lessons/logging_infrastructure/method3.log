@@ -1,0 +1,4 @@
+format=04/03/2018 22:06:52 - method3 - INFO - info message
+format=04/03/2018 22:06:52 - method3 - WARNING - warn message
+format=04/03/2018 22:06:52 - method3 - ERROR - error message
+format=04/03/2018 22:06:52 - method3 - CRITICAL - critical message

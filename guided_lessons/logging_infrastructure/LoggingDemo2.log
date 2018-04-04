@@ -1,0 +1,5 @@
+format=04/03/2018 22:06:52 - LoggingDemo2 - DEBUG - debug message
+format=04/03/2018 22:06:52 - LoggingDemo2 - INFO - info message
+format=04/03/2018 22:06:52 - LoggingDemo2 - WARNING - warn message
+format=04/03/2018 22:06:52 - LoggingDemo2 - ERROR - error message
+format=04/03/2018 22:06:52 - LoggingDemo2 - CRITICAL - critical message
