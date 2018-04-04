@@ -1,0 +1,15 @@
+04/03/2018 21:19:24 - LoggerDemoConf - DEBUG - debug message
+04/03/2018 21:19:24 - LoggerDemoConf - INFO - ingo message
+04/03/2018 21:19:24 - LoggerDemoConf - WARNING - warn message
+04/03/2018 21:19:24 - LoggerDemoConf - ERROR - error message
+04/03/2018 21:19:24 - LoggerDemoConf - CRITICAL - critical message
+04/03/2018 21:19:57 - LoggerDemoConf - DEBUG - debug message
+04/03/2018 21:19:57 - LoggerDemoConf - INFO - ingo message
+04/03/2018 21:19:57 - LoggerDemoConf - WARNING - warn message
+04/03/2018 21:19:57 - LoggerDemoConf - ERROR - error message
+04/03/2018 21:19:57 - LoggerDemoConf - CRITICAL - critical message
+04/03/2018 21:20:02 - LoggerDemoConf - DEBUG - debug message
+04/03/2018 21:20:02 - LoggerDemoConf - INFO - ingo message
+04/03/2018 21:20:02 - LoggerDemoConf - WARNING - warn message
+04/03/2018 21:20:02 - LoggerDemoConf - ERROR - error message
+04/03/2018 21:20:02 - LoggerDemoConf - CRITICAL - critical message
