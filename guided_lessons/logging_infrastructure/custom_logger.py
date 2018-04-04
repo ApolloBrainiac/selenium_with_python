@@ -18,6 +18,6 @@ def customLogger(logLevel):
         'format=%(asctime)s - %(name)s - %(levelname)s - %(message)s',
         datefmt='%m/%d/%Y %H:%M:%S')
     fileHandler.setFormatter(formatter)
-    logger.addHanlder(fileHandler)
+    logger.addHandler(fileHandler)
 
     return logger
