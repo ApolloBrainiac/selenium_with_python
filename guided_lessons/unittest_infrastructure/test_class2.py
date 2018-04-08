@@ -1,5 +1,6 @@
 import unittest
 
+
 class TestClass2(unittest.TestCase):
 
     @classmethod
@@ -25,6 +26,7 @@ class TestClass2(unittest.TestCase):
         print("*#" * 30)
         print("Class 2 -> class level tearDown")
         print("*#" * 30)
+
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)

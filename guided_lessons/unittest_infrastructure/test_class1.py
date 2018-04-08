@@ -9,8 +9,10 @@ http://stackoverflow.com/questions/3387695/add-to-python-path-mac-os-x
 """
 import unittest
 
+
 class TestClass1(unittest.TestCase):
 
+    @classmethod
     def setUpClass(cls):
         print("*#" * 30)
         print("Class 1 -> class level setUp")
@@ -28,10 +30,12 @@ class TestClass1(unittest.TestCase):
     def tearDown(self):
         print("Class 1 -> tearDown")
 
+    @classmethod
     def tearDownClass(cls):
         print("*#" * 30)
         print("Class 1 -> class level tearDown")
         print("*#" * 30)
+
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)
