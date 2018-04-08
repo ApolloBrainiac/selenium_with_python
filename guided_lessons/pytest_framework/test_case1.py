@@ -1,7 +1,13 @@
+import pytest
 
 
-def test_methodA():
-    print("Running method A")
+@pytest.fixture()
+def setUp():
+    print("Running demo1 setUp")
 
-def test_methodB():
-    print("Running method B")
+
+def test_methodA(setUp):
+    print("Running demo1 method A")
+
+def test_methodB(setUp):
+    print("Running demo1 method B")
