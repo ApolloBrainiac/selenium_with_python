@@ -9,8 +9,12 @@ def setUp():
 
 
 @pytest.fixture(scope="module")
-def oneTimeSetUp():
+def oneTimeSetUp(browser, osType):
     print("Running one time setUp")
+    if browser == 'firefox':
+        print("Running tests on FireFox")
+    else:
+        print("Running tests on Chrome")
     yield
     print("Running one time tearDown")
 
