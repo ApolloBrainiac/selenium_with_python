@@ -13,8 +13,10 @@ def oneTimeSetUp(browser, osType):
     print("Running one time setUp")
     if browser == 'firefox':
         print("Running tests on FireFox")
-    else:
+    elif browser == 'chrome':
         print("Running tests on Chrome")
+    else:
+        print("Running tests on unspecified browser")
     yield
     print("Running one time tearDown")
 
