@@ -20,7 +20,7 @@ def oneTimeSetUp(browser, osType):
 
 
 def pytest_addoption(parser):
-    parser.addoption("--broswer")
+    parser.addoption("--browser")
     parser.addoption("--osType", help="Type of opertaing system")
 
 
