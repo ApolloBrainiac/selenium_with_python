@@ -6,8 +6,8 @@ from class_to_test import SomeClassToTest
 class TestClassDemo():
 
     @pytest.fixture(autouse=True)
-    def classSetup(self):
-        self.abc = SomeClassToTest(10)
+    def classSetup(self, oneTimeSetUp):
+        self.abc = SomeClassToTest(self.value)
 
     def test_methodA(self):
         result = self.abc.sumNumbers(2, 8)
